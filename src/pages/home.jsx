@@ -28,7 +28,7 @@ export function Home() {
                 color="white"
                 className="mb-6 font-black"
               >
-                Your story starts with us.
+                Diabetes Detection and Prediction
               </Typography>
               <Typography variant="lead" color="white" className="opacity-80">
                 This is a simple example of a Landing Page you can build using
