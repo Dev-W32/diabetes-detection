@@ -14,6 +14,7 @@ import { PageTitle, Footer } from "@/widgets/layout";
 import { FeatureCard, TeamCard } from "@/widgets/cards";
 import { featuresData, teamData, contactData } from "@/data";
 
+
 export function Home() {
   return (
     <>
@@ -31,9 +32,7 @@ export function Home() {
                 Diabetes Prediction
               </Typography>
               <Typography variant="lead" color="white" className="opacity-80">
-                This is a simple example of a Landing Page you can build using
-                Material Tailwind. It features multiple components based on the
-                Tailwind CSS and Material Design by Google.
+                Empowering Better Health!
               </Typography>
             </div>
           </div>
@@ -43,7 +42,8 @@ export function Home() {
         <div className="container mx-auto">
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
             {featuresData.map(({ color, title, icon, description }) => (
-              <FeatureCard
+              
+                <FeatureCard
                 key={title}
                 color={color}
                 title={title}
@@ -52,6 +52,7 @@ export function Home() {
                 })}
                 description={description}
               />
+            
             ))}
           </div>
           <div className="mt-32 flex flex-wrap items-center">

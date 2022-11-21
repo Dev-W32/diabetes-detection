@@ -1,6 +1,7 @@
 import { Routes, Route, Navigate } from "react-router-dom";
 import { Navbar } from "@/widgets/layout";
 import routes from "@/routes";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (

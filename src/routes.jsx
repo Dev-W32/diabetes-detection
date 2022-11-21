@@ -6,6 +6,7 @@ import {
   UserPlusIcon,
   DocumentTextIcon,
 } from "@heroicons/react/24/solid";
+import DiabetePredict from "./components/DiabetePredict";
 import Predict from "./pages/predict";
 
 export const routes = [
@@ -36,8 +37,8 @@ export const routes = [
   {
     icon: UserPlusIcon,
     name: "Predict Diabetes",
-    path: "/predict",
-    element: <Predict />,
+    path: "/predict-d",
+    element: <DiabetePredict />,
   },
   {
     icon: DocumentTextIcon,
